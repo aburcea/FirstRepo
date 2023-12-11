@@ -1,4 +1,4 @@
-package model.RecoverPassword;
+package model.Forms.RecoverPassword;
 
 import org.openqa.selenium.WebElement;
 

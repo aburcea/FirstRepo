@@ -2,10 +2,8 @@ package FormsTests;
 
 import Browser.BrowserSetup;
 import model.Forms.FormsSteps;
-import model.Login.LoginMap;
-import model.Login.LoginSteps;
-import model.Register.RegisterMap;
-import model.Register.RegisterSteps;
+import model.Forms.Register.RegisterMap;
+import model.Forms.Register.RegisterSteps;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

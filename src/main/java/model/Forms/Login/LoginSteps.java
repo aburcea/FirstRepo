@@ -1,10 +1,8 @@
-package model.Login;
+package model.Forms.Login;
 
-import model.Login.LoginMap;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import model.Forms.FormsSteps;
 
 public class LoginSteps {
 
