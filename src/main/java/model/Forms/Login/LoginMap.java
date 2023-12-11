@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class LoginMap {
 
-
   public static WebElement login(WebDriver driver) {
     WebElement login = driver.findElement(By.id("login"));
     return login;

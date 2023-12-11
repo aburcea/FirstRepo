@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class LoginSteps {
 
-
   public static void loginClick(WebElement element) {
     element.click();
   }
