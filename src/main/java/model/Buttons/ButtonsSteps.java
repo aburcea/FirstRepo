@@ -9,8 +9,7 @@ public class ButtonsSteps {
     WebElement btns = driver.findElement(By.id("buttons"));
     return btns;
   }
-
-  public static btnClick(WebElement element) {
+  public static void clickButtons(WebElement element){
     element.click();
   }
 }
