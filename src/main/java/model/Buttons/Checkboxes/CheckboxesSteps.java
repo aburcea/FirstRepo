@@ -1,5 +1,6 @@
-package model.Forms.Checkboxes;
+package model.Buttons.Checkboxes;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class CheckboxesSteps {

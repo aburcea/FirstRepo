@@ -1,4 +1,4 @@
-package model.Forms.Checkboxes;
+package model.Buttons.Checkboxes;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
