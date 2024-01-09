@@ -30,5 +30,8 @@ public class RadioTest {
         RadioButtonsSteps.clickRadioButtons(radio);
         WebElement radio1=RadioButtonsMap.radiobtn1(driver);
         RadioButtonsSteps.clickRadioButtons(radio1);
+        WebElement radio2=RadioButtonsMap.radiobtn2(driver);
+        RadioButtonsSteps.clickRadioButtons(radio2);
+        RadioButtonsSteps.checkRadioBtn(driver);
     }
 }
