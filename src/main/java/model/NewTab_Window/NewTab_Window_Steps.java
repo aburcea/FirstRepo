@@ -1,4 +1,4 @@
-package NewTab_Window;
+package model.NewTab_Window;
 
 import org.openqa.selenium.WebElement;
 

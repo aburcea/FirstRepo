@@ -1,8 +1,8 @@
 package NewTab_Window_Tests;
 
 import Browser.BrowserSetup;
-import NewTab_Window.NewTab_Window_Map;
-import NewTab_Window.NewTab_Window_Steps;
+import model.NewTab_Window.NewTab_Window_Map;
+import model.NewTab_Window.NewTab_Window_Steps;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeTest;

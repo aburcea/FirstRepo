@@ -1,3 +1,3 @@
-package NewTab_Window;
+package model.NewTab_Window;
 
 public class NewBrowserWindowSteps {}

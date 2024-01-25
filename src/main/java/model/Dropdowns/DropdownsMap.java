@@ -31,4 +31,25 @@ public class DropdownsMap {
         driver.findElement(By.xpath("//li[@class='dropdown-item']/a[@href='#some-other-action']"));
     return secondAction;
   }
+
+  public static WebElement hoverFirstOption(WebDriver driver) {
+    WebElement hoverBtn =
+        driver.findElement(By.xpath("//a[@class='dropdown-item' and @href='#hover-me']"));
+    return hoverBtn;
+  }
+
+  public static WebElement secondLevel1(WebDriver driver) {
+    WebElement firstLevelBtn =
+        driver.findElement(By.xpath("//a[@tabindex='-1' and @href='#second-level-1']"));
+    return firstLevelBtn;
+  }
+
+  public static WebElement secondLevel2(WebDriver driver) {
+    WebElement secondLevelBtn = driver.findElement(By.xpath("//a[@href='#2nd-level-2']"));
+    return secondLevelBtn;
+  }
+  public static WebElement secondLevel3(WebDriver driver){
+    WebElement thirdlevelBtn=driver.findElement(By.xpath("//a[@href='#2nd-level-3']"));
+    return thirdlevelBtn;
+  }
 }
